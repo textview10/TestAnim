@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_pop_left_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+
+        <ImageView
+            android:id="@+id/iv_left_anim_1"
+            style="@style/style_iv_left_anim"
+            android:src="@drawable/ic_launcher" />
+
+        <ImageView
+            android:id="@+id/iv_left_1"
+            style="@style/iv_main_left_style"
+            android:src="@drawable/ic_launcher" />
+
+
+
+        <ImageView
+            android:id="@+id/iv_left_anim_2"
+            style="@style/style_iv_left_anim"
+            android:src="@drawable/ic_launcher" />
+
+        <ImageView
+            android:id="@+id/iv_left_2"
+            style="@style/iv_main_left_style"
+            android:layout_below="@id/iv_left_1"
+            android:src="@drawable/ic_launcher" />
+
+
+        <ImageView
+            android:id="@+id/iv_left_anim_3"
+            style="@style/style_iv_left_anim"
+            android:src="@drawable/ic_launcher" />
+
+        <ImageView
+            android:id="@+id/iv_left_3"
+            style="@style/iv_main_left_style"
+            android:layout_below="@id/iv_left_2"
+            android:src="@drawable/ic_launcher" />
+
+
+        <ImageView
+            android:id="@+id/iv_left_anim_4"
+            style="@style/style_iv_left_anim"
+            android:src="@drawable/ic_launcher" />
+
+        <ImageView
+            android:id="@+id/iv_left_4"
+            style="@style/iv_main_left_style"
+            android:layout_below="@id/iv_left_3"
+            android:src="@drawable/ic_launcher" />
+
+</RelativeLayout>
